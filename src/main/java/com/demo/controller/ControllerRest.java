@@ -32,6 +32,7 @@ public class ControllerRest {
         mav.addObject("notas", notas);
         return mav;
     }
+    
 
     //lo mismo que el anterior pero sin el token
     @GetMapping("/all2")
